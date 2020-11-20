@@ -2,11 +2,42 @@
 <html lang="en-us">
   <head>
     <meta charset="UTF-8" />
-    <title>HELLO WORLD</title>
-    </head>
-<body>
+    <title>HTML + CSS</title>
+
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+  </head>
+
+  <body> 
     <header>
-    <h1>Hello World!</h1>
-</header>
-</body>
+      <h1>Student Bio</h1>
+    </header>
+
+    <div class="container">
+      <section id="main-bio">
+        <!-- TODO: Replace content with your own info -->
+        <h2>Patrick Lee</h2>
+<!-- "https://i.redd.it/e1dvojpvwrh51.png" -->
+        <img
+          id="bio-image"
+          src="https://memegenerator.net/img/images/300x300/72220863.jpg" 
+          title = "This is Patrick"
+          alt="Patrick-bio-pic"
+        />
+
+        <p>
+          Write a short paragraph or two about yourself, or use placeholder text
+          from <a href="http://www.lipsum.com/">www.lipsum.com</a>
+        </p>
+      </section>
+
+      <section id="contact-info">
+        <h2>Contact Info</h2>
+        <ul class="contact-info-list">
+          <li><strong>Email:</strong> <a href="#">patrickmk@gmail.com</a></li>
+          <li><strong>Github:</strong> <a href="#">https://www.github.com/patrickmklee</a></li>
+          <li><strong>LinkedIn:</strong> <a href="#">coming soon</a></li>
+        </ul>
+      </section>
+    </div>
+  </body>
 </html>
