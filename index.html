@@ -1,42 +1,110 @@
 <!DOCTYPE html>
-<html lang="en-us">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Patrick Lee</title>
+<html lang="en">
 
-    <link rel="stylesheet" type="text/css" href="style.css" />
-  </head>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Patrick Lee</title>
+  <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
 
-  <body> 
-    <header>
-      <h1>Student Bio</h1>
-    </header>
+<body>
+  <!-- main logo / nav -->
+  <header>
+    <h1>Patrick Lee</h1>
+    <nav>
+      <a href="#about">About Me</a>
+      <a href="#work">Work</a>
+      <a href="#contact">Contact Me</a>
+      <!-- Link this to your resume! -->
+      <a href="#">Resume</a>
+    </nav>
+  </header>
 
-    <div class="container">
-      <section id="main-bio">
-        <!-- TODO: Replace content with your own info -->
-        <h2>Patrick Lee</h2>
-
-        <img
-          id="bio-image"
-          src="https://memegenerator.net/img/images/300x300/72220863.jpg" 
-          title = "This is Patrick"
-          alt="Patrick-bio-pic"
-        />
-
-        <p>
-          Write a short paragraph or two about yourself, or use placeholder text
-          from <a href="http://www.lipsum.com/">www.lipsum.com</a>
-        </p>
-      </section>
-
-      <section id="contact-info">
-        <h2>Contact Info</h2>
-        <ul class="contact-info-list">
-          <li><strong>Github:</strong> <a href="#">https://www.github.com/patrickmklee</a></li>
-          <li><strong>LinkedIn:</strong> <a href="#">coming soon</a></li>
-        </ul>
-      </section>
+  <!-- hero banner -->
+  <section class="hero-banner">
+    <div>
+      <h2>Electronics and Electrical Engineer</h2>
     </div>
-  </body>
+  </section>
+
+  <main class="page-wrapper">
+    <!-- about me -->
+    <section class="page-section" id="about">
+      <h2>About Me</h2>
+      <div>
+        <p>
+          My name is Patrick, I live in California and work in the semiconductory industry as a Hardware Engineer.
+          I have four years of professional experience in the technology industry. 
+          I specialize in the digital electronics field, embedded systems development, and silicon design validation.
+        </p>
+        <p>
+          I have an enthusiasm for the process of building, or creating things.
+          Engineering played perfectly to that interest and influenced me to pursue the subject.
+          I enjoy the challenge of analyzing and approaching a problem practically. 
+          Through this interest, I developed a strong capacity for problem-solving and applying technical concepts to real-world scenarios.
+        </p>
+      </div>
+    </section>
+
+    <!-- portfolio grid -->
+    <section class="page-section" id="work">
+      <h2>Work</h2>
+      <div class="grid-container">
+
+        <a href="https://www.patrickmklee.github.io/Password-Generator" class="grid-item password-generator">
+          <div>
+            <h3>Password Generator</h3>
+            <span>JavaScript</span>
+          </div>
+        </a>
+        
+        <a href="#" class="grid-item led-wall">
+          <div>
+            <h3>LED Wall</h3>
+            <span>Node/IoT</span>
+          </div>
+        </a>
+        <a href="#" class="grid-item react-calc">
+          <div>
+            <h3>Calculator</h3>
+            <span>React/JavaScript/CSS</span>
+          </div>
+        </a>
+
+        <a href="#" class="grid-item pastel-puzzles">
+          <div>
+            <h3>Pastel Puzzels</h3>
+            <span>MERN Stack</span>
+          </div>
+        </a>
+
+    
+        <a href="#" class="grid-item run-buddy">
+          <div>
+            <h3>Run Buddy</h3>
+            <span>HTML/CSS</span>
+          </div>
+        </a>
+
+      </div>
+    </section>
+
+    <!-- contact -->
+    <section class="page-section contact" id="contact">
+      <h2>Contact Me</h2>
+      <div>
+        <address>
+          <a href="tel:+15555555555">555.555.5555</a>
+          <a href="mailto:lernantino@website.com">lernantino@website.com</a>
+          <a href="#">GitHub</a>
+          <a href="#">Twitter</a>
+          <a href="#">Spotify</a>
+        </address>
+      </div>
+    </section>
+  </main>
+</body>
+
 </html>
