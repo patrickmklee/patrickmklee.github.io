@@ -250,7 +250,9 @@ main {
 .surf-report {
   background-image: url("../images/02-portfolio-4.jpg");
 }
-
+.project-placeholder {
+  background-image: url("../images/template.png");
+}
 .password-generator {
   background-image: url("../images/portfolio-password-generator-1.PNG")
 }
